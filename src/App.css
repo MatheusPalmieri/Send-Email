@@ -1,0 +1,52 @@
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #222;
+  color: #fff;
+}
+
+form {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin: 10px;
+  background: none;
+  outline: none;
+  color: #fff;
+  border: solid #ccc 2px;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all .8s;
+}
+
+input:focus, textarea:focus {
+  border: solid #0ff 2px;
+}
+
+input {
+  height: 25px;
+  background: none;
+  outline: none;
+  border: solid #ccc 2px;
+}
+
+textarea {
+  height: 100px;
+  resize: none;
+}
+
+input:last-child {
+  height: 39px;
+  cursor: pointer;
+}
+
+input:last-child:hover {
+  border: solid #0ff 2px;
+  background-color: #0ff;
+}
